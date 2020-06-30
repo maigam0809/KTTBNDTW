@@ -1,0 +1,89 @@
+header img {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  background-color: #01487f;
+}
+.navbar .navbar__list {
+  flex: 1;
+  margin-right: 30px;
+}
+.navbar .navbar__list .navbar__item {
+  display: inline-block;
+  padding: 10px 20px;
+  list-style: none;
+  border-left: 0.5px solid linen;
+  border-radius: 2px;
+}
+.navbar .navbar__list .navbar__item a {
+  color: #fff;
+  font-family: Tahoma;
+  font-size: 15px;
+  font-weight: bold;
+}
+.navbar .navbar__list .navbar__item:hover a {
+  color: bisque;
+}
+.navbar .form__navbar {
+  padding: 5px;
+}
+.navbar .form__navbar input {
+  padding: 5px;
+}
+.navbar .form__navbar .btn {
+  background-color: #cc1b23;
+  border: 0;
+  color: #fff;
+  padding: 7px 10px;
+}
+
+.main {
+  display: flex;
+  margin-top: 10px;
+}
+.main aside {
+  flex: 1;
+  margin-right: 10px;
+}
+.main aside .aside__top h3 {
+  background-color: slategrey;
+  text-align: center;
+  padding: 10px;
+}
+.main aside .aside__top .content__top-top .content_tin-tuc {
+  display: flex;
+}
+.main aside .aside__top .content__top-top .content_tin-tuc img {
+  flex: 1;
+}
+.main aside .aside__top .content__top-top .content_tin-tuc p {
+  flex: 4;
+}
+.main aside .aside__bottom {
+  display: flex;
+}
+.main aside .aside__bottom img {
+  flex: 1;
+  margin-right: 10px;
+}
+.main .content {
+  flex: 1;
+  margin-right: 10px;
+}
+.main article {
+  flex: 1;
+}
+.main article h3 {
+  background-color: slategrey;
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

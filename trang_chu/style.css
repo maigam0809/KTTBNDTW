@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #cc0000;
+  --secondary-color: #000000;
+  --background-color: #ffffff;
+  --five: #eeeeeeec;
+  --wrapper: 100%;
+  --container: 1024px;
+  --font1 : 16px;
+  --font2: 22px;
+  --border: 1px solid var(--five);
+  --magin-0-auto: 0 auto;
+  --flex: flex;
+  --margin-fixed: 30px;
+  --font-weight: bold;
+  --padding-20: 20px;
+  --font-family: 'Asap', sans-serif;
+  --font-family2: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  line-height: 1.4;
+  font-family: var(--font-family);
+  font-weight: 300;
+  background-image: url(../image/uploads/images/bg.jpg);
+
+}
+.wrapper {
+  width: var(--wrapper);
+ 
+}

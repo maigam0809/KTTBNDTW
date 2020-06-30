@@ -1,0 +1,15 @@
+.img__bg {
+ max-width: 8rem;
+ max-height: 5rem;
+}
+.form-inline .form-control {
+  width: 33rem;
+ border-radius: 0;
+  margin-right: 0 !important;
+}
+.btn-dark {
+  border-radius: 0;
+}
+.btn{
+  width: 4rem;
+}

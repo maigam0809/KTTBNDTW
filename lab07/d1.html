@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: lavender;
+    }
+
+    .container {
+      width: 500px;
+      margin: 50px auto;
+
+    }
+
+    .main-footer .container-inner {
+      padding-top: 32px;
+      padding-bottom: 25px;
+      clear: both;
+      overflow: hidden;
+    }
+
+    .now-login {
+      background-color: #fff;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 10px;
+
+    }
+
+    .now-login .content {
+      background-color: rgb(255, 255, 255);
+      padding: 30px;
+    }
+
+    .now-login .login-via {
+      margin-bottom: 35px;
+    }
+
+    .item {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      position: relative;
+      margin-bottom: 10px;
+      cursor: pointer;
+      padding: 7px 0px;
+      border-radius: 3px;
+
+    }
+
+    .phone {
+      background-color: green;
+    }
+
+    .fb {
+      background-color: blue;
+    }
+
+    .plus {
+      background-color: lightcoral;
+    }
+
+    .now-login .login-via .fas,
+    .now-login .login-via .fab {
+      position: absolute;
+      top: 5px;
+      left: 7px;
+      font-size: 15px;
+      width: 25px;
+      height: 25px;
+      text-align: center;
+      line-height: 25px;
+      border-radius: 50%;
+    }
+
+    .now-login .text {
+      font-size: 14px;
+      color: rgb(70, 70, 70);
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .now-login .form-login-input .far
+    {
+      color: rgb(159, 169, 170);
+      position: absolute;
+      top: 13px;
+      left: 8px;
+    }
+    .now-login .form-login-input .fas
+    {
+      color: rgb(159, 169, 170);
+      position: absolute;
+      top: 45px;
+      left: 8px;
+    }
+
+    .now-login .form-login-input input {
+      width: 100%;
+      border-width: 0px;
+      border: 1px solid gray;
+      border-color: initial;
+      border-image: initial;
+      border-radius: 5px;
+      padding: 9px 10px 9px 33px;
+    }
+    .field-group {
+      position: relative;
+    }
+
+    .btn:not(:disabled):not(.disabled) {
+      cursor: pointer;
+    }
+
+    .now-login .btn-submit {
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      padding: 6px 0px;
+    }
+
+    .btn-block {
+      display: block;
+      width: 100%;
+    }
+
+    .btn {
+      margin-top: 50px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(2, 136, 209);
+      width: 100%;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      user-select: none;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(2, 136, 209);
+      border-image: initial;
+      padding: 0.23rem 0.6rem;
+      border-radius: 3px;
+      transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    }
+
+    .form-group{
+      display: flex;
+    }
+
+    .clearfix {
+      clear: both;
+      display: inline;
+      content: "";
+     }
+     .field-group {
+       margin-bottom: 10px;
+     }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="now-login">
+      <div class="content">
+        <div class="title">Sign up</div>
+        <div class="login-via">
+          <div class="item phone"><i class="fas fa-mobile-alt"></i> Số điện thoại</div>
+          <div class="item fb"><i class="fab fa-facebook-f"></i>Facebook</div>
+          <div class="item plus">
+            <i class="fab fa-google-plus-g"></i>Google
+          </div>
+        </div>
+        <p class="text">Hoặc đăng nhập bằng tài khoản của bạn</p>
+        <div class="form-login-input">
+          <div class="field-group">
+            <div class="input-group">
+              <i class="far fa-envelope"></i>
+              <input type="text" placeholder="Username or email">
+            </div>
+            <div class="input-group">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" value="">
+            </div>
+          </div>
+          <div class="form-group clearfix ">
+            <div class="float-left" style=" float:left;">
+              <input type="checkbox" id="" style=" width: 20px;
+              text-align: left;"> Lưu thông tin đăng nhập
+            </div>
+            <span class="float-right" style="margin-top: 10px;">
+              <a href="" style="text-decoration:none; float:right;">Quên mật khẩu?</a>
+            </span>
+          </div>
+          <button class="btn btn-block btn-submit">Đăng nhập</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

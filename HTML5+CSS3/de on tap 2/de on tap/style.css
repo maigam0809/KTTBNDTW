@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+nav {
+  background-color: #0660ad;
+  color: #fff;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.ellipse {
+  background-color: #45597e;
+  height: 100px;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.ellipse::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #ddd;
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.ellipse::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #ddd;
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.ppp::before {
+  content: "Read this -";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo .logo-img {
+  background-color: #45597e;
+  height: 85px;
+  width: 110px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px
+}
+
+.logo-img::after {
+  content: "My";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background: #ddd;
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
